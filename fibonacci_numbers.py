@@ -1,7 +1,7 @@
 # Compare the three following methods for calculating Fibonacci numbers.
 # 1. recursive
-# 2. memoization and recursive
-# 3. Dynamic Programming which uses memization
+# 2. memoization and recursive (a kind of dynnamic programming)
+# 3. Dynamic Programming which uses memization (calculation from smaller numbers)
 
 
 def fibo_r(n):
