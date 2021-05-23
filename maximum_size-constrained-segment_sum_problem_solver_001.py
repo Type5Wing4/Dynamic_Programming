@@ -1,7 +1,7 @@
 import sys
 import json
 
-def maximum_segment_sum_problem_solver(input_file):
+def maximum_size_constrained_segment_sum_problem_solver(input_file):
 
     # Find subset with maximum sum, under the constraint that the size of subset,
     # how many elements are in the subset, is given in advance.
@@ -37,5 +37,5 @@ def maximum_segment_sum_problem_solver(input_file):
 if __name__ == '__main__':
 
     input_file = sys.argv[1]
-    maximum_segment_sum_problem_solver(input_file)
+    maximum_size_constrained_segment_sum_problem_solver(input_file)
     
